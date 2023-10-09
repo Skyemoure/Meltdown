@@ -29,12 +29,15 @@ public class aim : MonoBehaviour
 
         if (Input.GetMouseButton(1))
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && ControlCharacter1.botellas > 0)
             {
                 i = Instantiate(botella, mano.transform.position, Quaternion.identity);
                 dir = mira.transform.position - mano.transform.position;
                 i.GetComponent<Rigidbody>().AddForce(dir * 100f, ForceMode.Force);
+                ControlCharacter1.botellas -= 1;
+                print(ControlCharacter1.botellas);
             }
+
         }
 
 

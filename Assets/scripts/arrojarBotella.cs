@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class arrojarBotella : MonoBehaviour
 {
-    public Vector3 velocidad;
+    float tiempo;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        tiempo = 10f;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        transform.Translate(velocidad);
+        tiempo -= Time.deltaTime;
+        if ( tiempo < 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
