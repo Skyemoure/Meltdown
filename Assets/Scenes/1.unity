@@ -1547,6 +1547,7 @@ GameObject:
   - component: {fileID: 1271477983}
   - component: {fileID: 1263811215}
   - component: {fileID: 1261787625}
+  - component: {fileID: 1271477984}
   - component: {fileID: 1261763021}
   - component: {fileID: 1268513683}
   m_Layer: 0
@@ -3628,6 +3629,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1271477984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268363919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58897578a1841134db185cc8c7110326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botella: {fileID: 309640364514623909, guid: 63f4bf32e6a52534e8c67fa19e619411, type: 3}
+  mano: {fileID: 1205968939}
 --- !u!1 &1315580482
 GameObject:
   m_ObjectHideFlags: 3

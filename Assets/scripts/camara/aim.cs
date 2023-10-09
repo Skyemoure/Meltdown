@@ -28,24 +28,17 @@ public class aim : MonoBehaviour
             mainCamera.SetActive(false);
             aimCamera.SetActive(true);
 
+           
             RaycastHit hit;
             
             if (Physics.Raycast(follow2.transform.position, follow2.transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
             {
-                if (Input.GetMouseButton(2))
-                {
 
-                    Instantiate(botella, mano.transform.position, transform.rotation);
-
-
-                }
-               
+                Instantiate(botella, mano.transform.position, Quaternion.identity);
 
 
             }
-
-
-           
+          
         }
         else if (!Input.GetMouseButton(1) && !mainCamera.activeInHierarchy)
         {
