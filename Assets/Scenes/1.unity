@@ -607,6 +607,37 @@ Transform:
   m_Father: {fileID: 1268631307}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1205968938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1205968939}
+  m_Layer: 0
+  m_Name: mano
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1205968939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205968938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.027, y: 0.094, z: -0.018}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1268621193}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1258934729
 Animator:
   serializedVersion: 5
@@ -2230,6 +2261,8 @@ MonoBehaviour:
   aimCamera: {fileID: 120835457}
   follow2: {fileID: 1051654082}
   follow1: {fileID: 1497420225}
+  botella: {fileID: 309640364514623909, guid: 63f4bf32e6a52534e8c67fa19e619411, type: 3}
+  mano: {fileID: 1205968939}
 --- !u!4 &1268540051
 Transform:
   m_ObjectHideFlags: 0
@@ -3393,6 +3426,7 @@ Transform:
   - {fileID: 1268596663}
   - {fileID: 1268562741}
   - {fileID: 1268576437}
+  - {fileID: 1205968939}
   m_Father: {fileID: 1268613221}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -11,6 +11,8 @@ public class aim : MonoBehaviour
    
     public GameObject follow2;
     public GameObject follow1;
+    public GameObject botella;
+    public Transform mano;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,8 +32,16 @@ public class aim : MonoBehaviour
             
             if (Physics.Raycast(follow2.transform.position, follow2.transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
             {
-                
-                Debug.Log("colisiono");
+                if (Input.GetMouseButton(2))
+                {
+
+                    Instantiate(botella, mano.transform.position, transform.rotation);
+
+
+                }
+               
+
+
             }
 
 
