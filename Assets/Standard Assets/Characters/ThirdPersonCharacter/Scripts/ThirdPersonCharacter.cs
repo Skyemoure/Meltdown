@@ -165,6 +165,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 		void HandleGroundedMovement(bool crouch, bool jump)
 		{
+			/*
 			// check whether conditions are right to allow a jump:
 			if (jump && !crouch && m_Animator.GetCurrentAnimatorStateInfo(0).IsName("Grounded"))
 			{
@@ -173,7 +174,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				m_IsGrounded = false;
 				m_Animator.applyRootMotion = false;
 				m_GroundCheckDistance = 0.1f;
-			}
+			}*/
 		}
 
 		void ApplyExtraTurnRotation()

@@ -39,23 +39,6 @@ public class aim : MonoBehaviour
             }
 
         }
-
-
-
-        if (Input.GetMouseButton(1) && !aimCamera.activeInHierarchy)
-        {
-            mainCamera.SetActive(false);
-            aimCamera.SetActive(true);    
-          
-        }
-        else if (!Input.GetMouseButton(1) && !mainCamera.activeInHierarchy)
-        {
-            mainCamera.SetActive(true);
-            aimCamera.SetActive(false);
-            
-
-        }
-
     }
 
    

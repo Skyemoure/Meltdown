@@ -4,21 +4,29 @@ using UnityEngine;
 
 public class arrojarBotella : MonoBehaviour
 {
-    float tiempo;
+    float tiempo = 5f;
+    float speed = 100f;
 
+    public Vector3 target { get; set; }
+    public bool hit { get; set; }
     // Start is called before the first frame update
     void Start()
     {
-        tiempo = 10f;
+        Destroy(gameObject,tiempo);
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        tiempo -= Time.deltaTime;
-        if ( tiempo < 0)
+        transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+        if (!hit && Vector3.Distance(transform.position, target) < 0.01f)
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        Destroy(gameObject);
     }
 }
