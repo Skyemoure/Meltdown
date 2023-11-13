@@ -19,21 +19,17 @@ public class Enemy : MonoBehaviour
         agente.speed = speed_value;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerStay(Collider other)
     {
-        var ray = new Ray(agente.transform.position, (Player.transform.position - agente.transform.position).normalized);
-        RaycastHit hit;
-
-        if (Physics.Raycast(ray, out hit))
-        {
-            agente.destination = Origin.transform.position;
-        }
-        else if (Vector3.Distance(Player.transform.position, agente.transform.position) < distance_value)
+        if (other.CompareTag("Player"))
         {
             agente.destination = Player.transform.position;
         }
-        else
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
         {
             agente.destination = Origin.transform.position;
         }

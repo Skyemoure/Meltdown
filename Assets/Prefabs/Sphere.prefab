@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7120180607724815898}
   - component: {fileID: 7120180607724815897}
   - component: {fileID: 7120180607724815877}
+  - component: {fileID: 4487201546231632331}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -112,6 +113,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
   Proyectil: {fileID: 1206744123726750429, guid: 5339f29c2dfb9db478ff674325e94b16, type: 3}
-  rango_disparo: 5
-  intervalo_disparo: 1.5
+  intervalo_disparo: 5
   can_shoot: 0
+--- !u!135 &4487201546231632331
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7120180607724815896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 10
+  m_Center: {x: 0, y: 0, z: 0}
