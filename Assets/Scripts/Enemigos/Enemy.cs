@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
+        Player = GameObject.FindWithTag("Player");
         agente = GetComponent<UnityEngine.AI.NavMeshAgent>();
         agente.speed = speed_value;
     }

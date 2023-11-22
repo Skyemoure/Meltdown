@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 403755520046914658}
   m_Layer: 5
   m_Name: CanvasMira
-  m_TagString: Untagged
+  m_TagString: canvasmira
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 3088693984625784479}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -659,11 +659,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7902914931236469979, guid: 09535c5f01e8ef343a79572f08870d29, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7393639
+      value: 0.73936415
       objectReference: {fileID: 0}
     - target: {fileID: 7902914931236469979, guid: 09535c5f01e8ef343a79572f08870d29, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.524935
+      value: -4.5249357
       objectReference: {fileID: 0}
     - target: {fileID: 7902914931236469979, guid: 09535c5f01e8ef343a79572f08870d29, type: 3}
       propertyPath: m_LocalRotation.w
@@ -940,7 +940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerInput: {fileID: 403755521460678208}
-  canvas: {fileID: 403755520046914660}
+  canvas: {fileID: 0}
 --- !u!4 &7509372788493773794 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7902914931236469979, guid: 09535c5f01e8ef343a79572f08870d29, type: 3}

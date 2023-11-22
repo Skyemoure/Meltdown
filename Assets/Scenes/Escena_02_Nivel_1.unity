@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18362632, g: 0.22787613, b: 0.29804674, a: 1}
+  m_IndirectSpecularColor: {r: 0.18362674, g: 0.22787654, b: 0.29804802, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1180,10 +1180,6 @@ PrefabInstance:
       propertyPath: Origin
       value: 
       objectReference: {fileID: 649420948}
-    - target: {fileID: 2116189808627736209, guid: 510d3d2c60374bd488dbf1301acb7495, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1050449324}
     - target: {fileID: 6582076527061642352, guid: 510d3d2c60374bd488dbf1301acb7495, type: 3}
       propertyPath: m_Size.x
       value: 15
@@ -10613,11 +10609,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1050449324 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 403755520261027664, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
-  m_PrefabInstance: {fileID: 2100343967}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1055737028
 GameObject:
   m_ObjectHideFlags: 0
@@ -12718,6 +12709,18 @@ PrefabInstance:
       propertyPath: UIText
       value: 
       objectReference: {fileID: 318690568}
+    - target: {fileID: 7509372787784849526, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7393639
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509372787784849526, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.524935
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509372788493773794, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.2229404
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
 --- !u!1001 &4466247780375114203
