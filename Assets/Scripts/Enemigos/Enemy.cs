@@ -50,4 +50,13 @@ public class Enemy : MonoBehaviour
             Act = false;
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("player_attack"))
+        {
+            Vector3 direccionRetroceso = -transform.forward * 100 * Time.deltaTime;
+            transform.Translate(direccionRetroceso, Space.World);
+        }
+    }
 }

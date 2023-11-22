@@ -28,7 +28,6 @@ public class Player_Attack : MonoBehaviour
                 weapon.GetComponent<Collider>().enabled = false;
                 weapon.GetComponent<MeshRenderer>().enabled = false;
                 attacking = false;
-                Debug.Log("dejo de pegar");
                 attackTimer = 0f;
             }
         }
@@ -37,7 +36,6 @@ public class Player_Attack : MonoBehaviour
             attacking = true;
             weapon.GetComponent<Collider>().enabled = true;
             weapon.GetComponent<MeshRenderer>().enabled = true;
-            Debug.Log("estoy pegando");
         }
     }
 }

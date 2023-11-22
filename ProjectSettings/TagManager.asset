@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fire
   - pickup
+  - player_attack
   layers:
   - Default
   - TransparentFX
