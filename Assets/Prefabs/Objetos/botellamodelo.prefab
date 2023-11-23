@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 2255437227556069488}
   - component: {fileID: 4939224732902767680}
   - component: {fileID: -8899112434860939165}
+  - component: {fileID: 8923924343889754273}
   m_Layer: 0
   m_Name: botellamodelo
-  m_TagString: Untagged
+  m_TagString: player_attack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,3 +115,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8923924343889754273
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309640364514623909}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.02, z: 0.059095107}
+  m_Center: {x: 0, y: 0, z: 0.0054038474}
