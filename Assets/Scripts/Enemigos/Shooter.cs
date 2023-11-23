@@ -28,4 +28,12 @@ public class Shooter : MonoBehaviour
         if (can_shoot)
             StartCoroutine(Shoot());
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("player_attack"))
+        {
+            Destroy(gameObject); ;
+        }
+    }
 }

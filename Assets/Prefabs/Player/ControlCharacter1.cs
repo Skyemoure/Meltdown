@@ -41,6 +41,8 @@ public class ControlCharacter1 : MonoBehaviour
     [SerializeField]
     private float timeSpeed = 0.08f;
 
+    public Transform prefabPos;
+
     private void Start()
     {
         //inicializo variables
@@ -70,7 +72,7 @@ public class ControlCharacter1 : MonoBehaviour
                 //Creamos botellas al disparar
                 //Si no golpea a nada sigue infinitamente (hasta que se le vá la vida útil y se autodestruye)
                 RaycastHit hit;
-                i = Instantiate(botella, transform.position, Quaternion.identity);
+                i = Instantiate(botella, prefabPos.transform.position, Quaternion.identity);
                 arrojarBotella bulletController = i.GetComponent<arrojarBotella>();
                 if (Physics.Raycast(camTransform.position, camTransform.forward, out hit, Mathf.Infinity))
                 {
