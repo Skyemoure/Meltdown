@@ -522,6 +522,7 @@ MonoBehaviour:
   gravityValue: -9.81
   rotSpeed: 0.8
   timeSpeed: 0.08
+  prefabPos: {fileID: 8951769051346580827}
 --- !u!114 &5599269522272987949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -826,15 +827,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7902914931236469979, guid: 09535c5f01e8ef343a79572f08870d29, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5123272
+      value: 1.22294
       objectReference: {fileID: 0}
     - target: {fileID: 7902914931236469979, guid: 09535c5f01e8ef343a79572f08870d29, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7506485
+      value: 0.75064826
       objectReference: {fileID: 0}
     - target: {fileID: 7902914931236469979, guid: 09535c5f01e8ef343a79572f08870d29, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.6024895
+      value: -2.6024914
       objectReference: {fileID: 0}
     - target: {fileID: 7902914931236469979, guid: 09535c5f01e8ef343a79572f08870d29, type: 3}
       propertyPath: m_LocalRotation.w
