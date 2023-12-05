@@ -8,6 +8,8 @@ TagManager:
   - pickup
   - canvasmira
   - player_attack
+  - Enemy
+  - Trampa
   layers:
   - Default
   - TransparentFX

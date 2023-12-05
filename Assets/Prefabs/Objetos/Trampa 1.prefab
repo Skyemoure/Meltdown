@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3573905522606312807}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Trampa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -243,6 +243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpikeMesh: {fileID: 1508468058350860455}
   SpikeCollider: {fileID: 3573905522606312807}
+  Activate: 0
 --- !u!54 &8164078558036699848
 Rigidbody:
   m_ObjectHideFlags: 0
