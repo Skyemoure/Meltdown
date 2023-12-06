@@ -13,6 +13,7 @@ public class Shooter : MonoBehaviour
     void Start()
     {
         can_shoot = true;
+        Player = GameObject.FindWithTag("Player");
     }
 
     IEnumerator Shoot()
@@ -25,8 +26,12 @@ public class Shooter : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (can_shoot)
-            StartCoroutine(Shoot());
+        if(other.CompareTag("Player"))
+        {
+            if (can_shoot)
+                StartCoroutine(Shoot());
+        }
+
     }
 
     private void OnCollisionEnter(Collision collision)

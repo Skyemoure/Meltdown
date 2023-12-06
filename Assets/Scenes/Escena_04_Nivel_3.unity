@@ -801,29 +801,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 256007980}
     m_Modifications:
-    - target: {fileID: 4487201546231632331, guid: ea20f6a409693e345b77133918f88222, type: 3}
-      propertyPath: m_Radius
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4487201546231632331, guid: ea20f6a409693e345b77133918f88222, type: 3}
-      propertyPath: m_Center.y
-      value: -5
-      objectReference: {fileID: 0}
     - target: {fileID: 7120180607724815876, guid: ea20f6a409693e345b77133918f88222, type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7120180607724815876, guid: ea20f6a409693e345b77133918f88222, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7120180607724815876, guid: ea20f6a409693e345b77133918f88222, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7120180607724815876, guid: ea20f6a409693e345b77133918f88222, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7120180607724815876, guid: ea20f6a409693e345b77133918f88222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -864,22 +844,6 @@ PrefabInstance:
     - target: {fileID: 7120180607724815876, guid: ea20f6a409693e345b77133918f88222, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7120180607724815876, guid: ea20f6a409693e345b77133918f88222, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7120180607724815877, guid: ea20f6a409693e345b77133918f88222, type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7120180607724815877, guid: ea20f6a409693e345b77133918f88222, type: 3}
-      propertyPath: rango_disparo
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 7120180607724815877, guid: ea20f6a409693e345b77133918f88222, type: 3}
-      propertyPath: intervalo_disparo
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7120180607724815896, guid: ea20f6a409693e345b77133918f88222, type: 3}
       propertyPath: m_Name
