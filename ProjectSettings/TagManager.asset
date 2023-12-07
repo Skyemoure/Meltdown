@@ -10,6 +10,7 @@ TagManager:
   - player_attack
   - Enemy
   - Trampa
+  - EnemyDetect
   layers:
   - Default
   - TransparentFX
