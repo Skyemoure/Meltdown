@@ -8,7 +8,6 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(CharacterController), typeof(PlayerInput))]
 public class ControlCharacter1 : MonoBehaviour
 {
-
     static public int botellas;
     private CharacterController controller;
     private Vector3 playerVelocity;
@@ -24,9 +23,7 @@ public class ControlCharacter1 : MonoBehaviour
     Vector3 dir;
     GameObject i;
     public Transform mano;
-
     public TextMeshProUGUI UIText;
-
 
     //Variables de velocidad, gravedad
     [SerializeField]
@@ -76,12 +73,8 @@ public class ControlCharacter1 : MonoBehaviour
                 arrojarBotella bulletController = i.GetComponent<arrojarBotella>();
                 if (Physics.Raycast(camTransform.position, camTransform.forward, out hit, Mathf.Infinity))
                 {
-                    
-                    
                     bulletController.target = hit.point;
-                    bulletController.hit = true;
-
-                    
+                    bulletController.hit = true; 
                 }
                 else
                 {
@@ -90,9 +83,7 @@ public class ControlCharacter1 : MonoBehaviour
                 }
                 botellas--;
             }
-
         }
-
     }
 
     private void FixedUpdate()
@@ -117,16 +108,6 @@ public class ControlCharacter1 : MonoBehaviour
         Quaternion targetRotation = Quaternion.Euler(0, targetAngle, 0);
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotSpeed * timeSpeed);
 
-
-
-
-
-       //Salto teórico si hubiera, ahora mismo no hace nada
-       /* if (groundedPlayer)
-        {
-            playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
-        }*/
-
         //gravedad y límite
         playerVelocity.y += gravityValue * timeSpeed;
         if (playerVelocity.y < -15f)
@@ -134,7 +115,6 @@ public class ControlCharacter1 : MonoBehaviour
             playerVelocity.y = -15f;
         }
         
-
         controller.Move(playerVelocity * timeSpeed);
     }
 
@@ -145,9 +125,15 @@ public class ControlCharacter1 : MonoBehaviour
         {
             botellas += 5;
             Destroy(other.gameObject);
-
-
         }
     }
+
+    public void EmpujarHaciaAtras(float fuerza)
+    {
+        Vector3 direccionOpuesta = -camTransform.forward;
+
+        controller.Move(direccionOpuesta * fuerza * Time.deltaTime);
+    }
+
 }
 

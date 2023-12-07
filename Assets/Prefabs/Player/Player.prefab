@@ -416,6 +416,7 @@ GameObject:
   - component: {fileID: 403755521460678210}
   - component: {fileID: 1224899674901978058}
   - component: {fileID: 5599269522272987949}
+  - component: {fileID: 1820231891}
   m_Layer: 0
   m_Name: ThirdPersonController
   m_TagString: Player
@@ -536,7 +537,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 8606592375871598561}
-  tiempo_ataque: 1.5
+  tiempo_ataque: 1
+--- !u!114 &1820231891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403755521457564207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c779461e27fb41440962f6b5b9963267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vida: 100
+  LifeBar: {fileID: 0}
 --- !u!1 &403755521575978250
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,15 +842,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7902914931236469979, guid: 09535c5f01e8ef343a79572f08870d29, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.22294
+      value: 1.2229404
       objectReference: {fileID: 0}
     - target: {fileID: 7902914931236469979, guid: 09535c5f01e8ef343a79572f08870d29, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.75064826
+      value: 0.7506485
       objectReference: {fileID: 0}
     - target: {fileID: 7902914931236469979, guid: 09535c5f01e8ef343a79572f08870d29, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.6024914
+      value: -2.6024895
       objectReference: {fileID: 0}
     - target: {fileID: 7902914931236469979, guid: 09535c5f01e8ef343a79572f08870d29, type: 3}
       propertyPath: m_LocalRotation.w

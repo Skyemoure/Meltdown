@@ -73,7 +73,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("player_attack"))
         {
-            Vector3 direccionRetroceso = -transform.forward * 100 * Time.deltaTime;
+            Vector3 direccionRetroceso = -transform.forward * 200 * Time.deltaTime;
             transform.Translate(direccionRetroceso, Space.World);
             Vida -= 25;
         }
