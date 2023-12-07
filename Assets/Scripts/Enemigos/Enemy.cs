@@ -14,9 +14,7 @@ public class Enemy : MonoBehaviour
 
     public bool Act;
 
-
-    [SerializeField]
-    private float Vida;
+    public float Vida;
 
     void Start()
     {
@@ -44,15 +42,6 @@ public class Enemy : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Trampa"))
-        {
-            Vida -= 100;
-        }
-    }
-
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))
