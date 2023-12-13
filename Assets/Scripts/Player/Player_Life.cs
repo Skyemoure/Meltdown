@@ -6,40 +6,23 @@ using UnityEngine.SceneManagement;
 
 public class Player_Life : MonoBehaviour
 {
-    [SerializeField]
-    private float Vida;
-
-    private float VidaMax;
     private ControlCharacter1 Control;
+    private Player_Cambio Camara;
 
-    public Image LifeBar;
 
+    private bool Act;
     void Start()
     {
         Control = GetComponent<ControlCharacter1>();
-        Vida = 100;
-        VidaMax = 100;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        LifeBar.fillAmount = Vida / VidaMax;
-
-        if(Vida <= 0)
-        {
-            RecargarEscenaActual();
-        }
+        Camara = GameObject.FindWithTag("MainCamera").GetComponent<Player_Cambio>();
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Trampa") || collision.gameObject.CompareTag("Enemy"))
         {
-            //Vector3 direccionRetroceso = -transform.forward * 100 * Time.deltaTime;
-            //transform.Translate(direccionRetroceso, Space.World);
             Control.EmpujarHaciaAtras(200);
-            Vida -= 25;
+            Camara.Vida -= 25;
         }
     }
 
@@ -47,5 +30,14 @@ public class Player_Life : MonoBehaviour
     {
         int escenaActual = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(escenaActual);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Hielo"))
+        {
+            Camara.Act = true;
+            Camara.Vida = 500;
+        }
     }
 }

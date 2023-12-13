@@ -1868,7 +1868,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 389216828}
+  m_Mesh: {fileID: 1706108731}
 --- !u!33 &299108290
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -19466,15 +19466,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 403755520261027665, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 403755520261027665, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 403755520261027665, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 403755520261027665, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

@@ -8,7 +8,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(CharacterController), typeof(PlayerInput))]
 public class ControlCharacter1 : MonoBehaviour
 {
-    static public int botellas;
+    private Player_Cambio Camara;
     private CharacterController controller;
     private Vector3 playerVelocity;
     private bool groundedPlayer;
@@ -42,8 +42,6 @@ public class ControlCharacter1 : MonoBehaviour
 
     private void Start()
     {
-        //inicializo variables
-        botellas = 5;
         //busco controller y el input de player creado
         controller = GetComponent<CharacterController>();
         input = GetComponent<PlayerInput>();
@@ -55,16 +53,18 @@ public class ControlCharacter1 : MonoBehaviour
 
         //para que el cursor no salga de la pantalla
         Cursor.lockState = CursorLockMode.Locked;
+        UIText = GameObject.FindWithTag("MainCamera").GetComponentInChildren<TextMeshProUGUI>();
+        Camara = GameObject.FindWithTag("MainCamera").GetComponent<Player_Cambio>();
     }
 
     void Update()
     {
-        UIText.text = "X " + botellas.ToString();
+        UIText.text = "X " + Camara.botellas.ToString();
 
         //botellas
         if (Input.GetMouseButton(1))
         {
-            if (Input.GetMouseButtonDown(0) && botellas > 0)
+            if (Input.GetMouseButtonDown(0) && Camara.botellas > 0)
             {
                 //Creamos botellas al disparar
                 //Si no golpea a nada sigue infinitamente (hasta que se le vá la vida útil y se autodestruye)
@@ -81,7 +81,7 @@ public class ControlCharacter1 : MonoBehaviour
                     bulletController.target = camTransform.position + camTransform.forward * 25f;
                     bulletController.hit = true;
                 }
-                botellas--;
+                Camara.botellas--;
             }
         }
     }
@@ -123,8 +123,22 @@ public class ControlCharacter1 : MonoBehaviour
         //Recargar botellas al agarrar más
         if (other.tag == "pickup")
         {
-            botellas += 5;
+            Camara.botellas += 5;
             Destroy(other.gameObject);
+        }
+
+        if (other.tag == "Zona_de_Calor")
+        {
+            playerSpeed = 1;
+        }
+
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Zona_de_Calor")
+        {
+            playerSpeed = 2;
         }
     }
 

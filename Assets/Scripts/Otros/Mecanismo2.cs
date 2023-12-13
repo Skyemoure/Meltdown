@@ -11,7 +11,7 @@ public class Mecanismo2 : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("player_attack"))
+        if (other.CompareTag("Player"))
         {
             Destroy(Puente1);
             Destroy(Puente2);

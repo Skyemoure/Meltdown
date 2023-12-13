@@ -11,6 +11,8 @@ TagManager:
   - Enemy
   - Trampa
   - EnemyDetect
+  - Zona_de_Calor
+  - Hielo
   layers:
   - Default
   - TransparentFX

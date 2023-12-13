@@ -8465,6 +8465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boton
       objectReference: {fileID: 0}
+    - target: {fileID: 7625263338158731857, guid: 905b9b20c35fc954fafc9dd629f26e87, type: 3}
+      propertyPath: m_TagString
+      value: Hielo
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7022192544402910323, guid: 905b9b20c35fc954fafc9dd629f26e87, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 905b9b20c35fc954fafc9dd629f26e87, type: 3}
@@ -8492,8 +8496,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Puente1: {fileID: 18818782}
   Puente2: {fileID: 646195324}
-  Puente3: {fileID: 0}
-  Puente4: {fileID: 0}
+  Puente3: {fileID: 626781939}
+  Puente4: {fileID: 846704580}
 --- !u!1001 &743331976
 PrefabInstance:
   m_ObjectHideFlags: 0
