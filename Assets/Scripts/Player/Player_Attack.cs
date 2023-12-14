@@ -8,10 +8,13 @@ public class Player_Attack : MonoBehaviour
     public float tiempo_ataque;
     private bool attacking = false;
     private float attackTimer = 0f;
-
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
+
+        anim = gameObject.GetComponent<Animator>();
+
         weapon.GetComponent<Collider>().enabled = false;
         weapon.GetComponent<MeshRenderer>().enabled = false;
     }
@@ -36,6 +39,7 @@ public class Player_Attack : MonoBehaviour
             attacking = true;
             weapon.GetComponent<Collider>().enabled = true;
             weapon.GetComponent<MeshRenderer>().enabled = true;
+            anim.SetTrigger("attack");
         }
     }
 }

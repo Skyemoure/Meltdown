@@ -27,7 +27,7 @@ public class ControlCharacter1 : MonoBehaviour
 
     public TextMeshProUGUI UIText;
 
-
+    public Animator anim;
     //Variables de velocidad, gravedad
     [SerializeField]
     private float playerSpeed = 2.0f;
@@ -45,6 +45,9 @@ public class ControlCharacter1 : MonoBehaviour
 
     private void Start()
     {
+
+        anim = gameObject.GetComponent<Animator>();
+
         //inicializo variables
         botellas = 5;
         //busco controller y el input de player creado
@@ -71,6 +74,9 @@ public class ControlCharacter1 : MonoBehaviour
             {
                 //Creamos botellas al disparar
                 //Si no golpea a nada sigue infinitamente (hasta que se le vá la vida útil y se autodestruye)
+
+                anim.SetTrigger("Tirar");
+
                 RaycastHit hit;
                 i = Instantiate(botella, prefabPos.transform.position, Quaternion.identity);
                 arrojarBotella bulletController = i.GetComponent<arrojarBotella>();
@@ -93,6 +99,7 @@ public class ControlCharacter1 : MonoBehaviour
 
         }
 
+       
     }
 
     private void FixedUpdate()
@@ -136,6 +143,9 @@ public class ControlCharacter1 : MonoBehaviour
         
 
         controller.Move(playerVelocity * timeSpeed);
+
+        anim.SetFloat("Speed",playerSpeed/100 );
+        
     }
 
     private void OnTriggerEnter(Collider other)
