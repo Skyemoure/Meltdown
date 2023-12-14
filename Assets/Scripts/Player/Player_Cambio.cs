@@ -19,8 +19,10 @@ public class Player_Cambio : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        DontDestroyOnLoad(gameObject);
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
     }
     void Start()
     {
@@ -34,19 +36,9 @@ public class Player_Cambio : MonoBehaviour
 
         if (Act)
         {
-            VidaMax = 500;
+            VidaMax = 350;
             Vida -= Time.deltaTime;
             LifeBar.color = Color.blue;
         }
-
-        if (Vida <= 0)
-        {
-            RecargarEscenaActual();
-        }
-    }
-    public void RecargarEscenaActual()
-    {
-        int escenaActual = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(escenaActual);
     }
 }

@@ -4,19 +4,21 @@ using UnityEngine;
 
 public class Mecanismo2 : MonoBehaviour
 {
-    public GameObject Puente1;
-    public GameObject Puente2;
-    public GameObject Puente3;
-    public GameObject Puente4;
+    public GameObject Objeto1;
+    public GameObject Objeto2;
+    public GameObject Objeto3;
+    public GameObject Objeto4;
+    public GameObject Objeto5;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Destroy(Puente1);
-            Destroy(Puente2);
-            Destroy(Puente3);
-            Destroy(Puente4);
+            Destroy(Objeto1);
+            Destroy(Objeto2);
+            Destroy(Objeto3);
+            Destroy(Objeto4);
+            Destroy(Objeto5);
         }
     }
 }

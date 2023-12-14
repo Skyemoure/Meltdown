@@ -9,12 +9,19 @@ public class Player_Life : MonoBehaviour
     private ControlCharacter1 Control;
     private Player_Cambio Camara;
 
-
-    private bool Act;
     void Start()
     {
         Control = GetComponent<ControlCharacter1>();
         Camara = GameObject.FindWithTag("MainCamera").GetComponent<Player_Cambio>();
+    }
+
+    private void Update()
+    {
+        if (Camara.Vida <= 0)
+        {
+            RecargarEscenaActual();
+            Destroy(Camara.gameObject);
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -37,7 +44,15 @@ public class Player_Life : MonoBehaviour
         if (other.CompareTag("Hielo"))
         {
             Camara.Act = true;
-            Camara.Vida = 500;
+            Camara.Vida = 350;
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Zona_de_Calor"))
+        {
+            Camara.Vida -= Time.deltaTime * 5;
         }
     }
 }
