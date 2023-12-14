@@ -1916,6 +1916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trampa 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7766309306711856901, guid: 9d633a44b95f0f54894c274e77e0fcd4, type: 3}
+      propertyPath: Timer
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d633a44b95f0f54894c274e77e0fcd4, type: 3}
 --- !u!4 &114118066 stripped
@@ -3632,6 +3636,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1820231891, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
+      propertyPath: Iframes
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820231891, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
       propertyPath: LifeBar
       value: 
       objectReference: {fileID: 0}
@@ -3641,7 +3649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 403755520261027665, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 403755520261027665, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15780,7 +15788,7 @@ Transform:
   - {fileID: 1333971613}
   - {fileID: 140092432}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1219353258
 PrefabInstance:
@@ -16592,7 +16600,7 @@ Transform:
   - {fileID: 168937572}
   - {fileID: 1956434490}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1270267952
 PrefabInstance:
@@ -17370,7 +17378,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6716602367403766122, guid: a8a2d383a6e16bd4fb289f6b2362bfcd, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6716602367403766122, guid: a8a2d383a6e16bd4fb289f6b2362bfcd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17536,7 +17544,7 @@ Transform:
   - {fileID: 940380832}
   - {fileID: 511506123}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1414110417
 PrefabInstance:
@@ -18630,7 +18638,7 @@ Transform:
   - {fileID: 1618108652}
   - {fileID: 290878483}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1546192024
 GameObject:
@@ -28269,7 +28277,7 @@ Transform:
   - {fileID: 1270267953}
   - {fileID: 2014761880}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1768265508
 Mesh:
@@ -35000,7 +35008,7 @@ Transform:
   - {fileID: 831955443}
   - {fileID: 565266491}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2123087407
 PrefabInstance:
