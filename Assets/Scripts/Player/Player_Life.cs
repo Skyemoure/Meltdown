@@ -52,7 +52,10 @@ public class Player_Life : MonoBehaviour
     {
         if (other.CompareTag("Zona_de_Calor"))
         {
-            Camara.Vida -= Time.deltaTime * 5;
+            if(Camara.Act)
+            {
+                Camara.Vida -= Time.deltaTime * 5;
+            }
         }
     }
 }

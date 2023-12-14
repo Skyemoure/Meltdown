@@ -38,7 +38,7 @@ public class Player_Cambio : MonoBehaviour
         {
             VidaMax = 350;
             Vida -= Time.deltaTime;
-            LifeBar.color = Color.blue;
+            LifeBar.color = Color.cyan;
         }
     }
 }

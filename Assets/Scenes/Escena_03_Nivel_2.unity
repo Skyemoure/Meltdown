@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -178,6 +182,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &14318473 stripped
@@ -199,7 +207,7 @@ GameObject:
   - component: {fileID: 35343622}
   - component: {fileID: 35343621}
   - component: {fileID: 35343620}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pared_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -544,7 +552,7 @@ GameObject:
   - component: {fileID: 40487763}
   - component: {fileID: 40487762}
   - component: {fileID: 40487761}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -930,6 +938,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa Cuadrada (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4385880456263220792, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040876467441380757, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
 --- !u!4 &41936316 stripped
@@ -951,7 +967,7 @@ GameObject:
   - component: {fileID: 69914185}
   - component: {fileID: 69914184}
   - component: {fileID: 69914183}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pared_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1293,6 +1309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -1337,6 +1357,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &89061026 stripped
@@ -1354,6 +1378,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -1399,6 +1427,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &91242954 stripped
@@ -1420,7 +1452,7 @@ GameObject:
   - component: {fileID: 95095752}
   - component: {fileID: 95095751}
   - component: {fileID: 95095750}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pared_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1762,6 +1794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 77
@@ -1805,6 +1841,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -1892,7 +1932,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 135964186}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Paredes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1936,7 +1976,7 @@ GameObject:
   - component: {fileID: 140092429}
   - component: {fileID: 140092428}
   - component: {fileID: 140092427}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Techo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2274,9 +2314,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -2405,7 +2453,7 @@ GameObject:
   - component: {fileID: 154934795}
   - component: {fileID: 154934794}
   - component: {fileID: 154934793}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pared_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2750,7 +2798,7 @@ GameObject:
   - component: {fileID: 157067257}
   - component: {fileID: 157067256}
   - component: {fileID: 157067255}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pared_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3092,6 +3140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -3135,6 +3187,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -3260,6 +3316,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa Cuadrada (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4385880456263220792, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040876467441380757, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
 --- !u!4 &177157077 stripped
@@ -3282,6 +3346,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -3326,6 +3394,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -3463,9 +3535,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2063072474596190211, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
       propertyPath: m_Name
       value: Barril (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
@@ -3484,6 +3564,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -3528,6 +3612,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -3599,6 +3687,22 @@ PrefabInstance:
       propertyPath: UIText
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7509372787784849526, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.5249367
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509372788493773794, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.22294
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509372788493773794, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.75064874
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509372788493773794, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 209636f3ce0f87b40a30edf25974a6d3, type: 3}
 --- !u!1001 &237118219
@@ -3611,6 +3715,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -3655,6 +3763,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -3740,9 +3852,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -3809,7 +3929,7 @@ GameObject:
   - component: {fileID: 256878219}
   - component: {fileID: 256878218}
   - component: {fileID: 256878217}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Borde_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4213,6 +4333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -4256,6 +4380,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -4407,6 +4535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 93
@@ -4451,6 +4583,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &323288752 stripped
@@ -4465,9 +4601,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -4531,6 +4675,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -4575,6 +4723,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &325602461 stripped
@@ -4589,9 +4741,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -4655,6 +4815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 90
@@ -4699,6 +4863,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &362583790 stripped
@@ -4716,6 +4884,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -4761,6 +4933,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &371674056 stripped
@@ -4778,6 +4954,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -4822,6 +5002,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -5167,7 +5351,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 418698093}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Paredes 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5203,6 +5387,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -5248,6 +5436,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &432864406 stripped
@@ -5269,7 +5461,7 @@ GameObject:
   - component: {fileID: 441664612}
   - component: {fileID: 441664611}
   - component: {fileID: 441664610}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8751,9 +8943,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -8817,6 +9017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -8861,6 +9065,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &490366985 stripped
@@ -8878,6 +9086,10 @@ PrefabInstance:
     - target: {fileID: 3845108601707342401, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
       propertyPath: m_Name
       value: Silla_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3845108601707342401, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4474116541924831483, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
       propertyPath: m_RootOrder
@@ -8922,6 +9134,10 @@ PrefabInstance:
     - target: {fileID: 4474116541924831483, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5459622001529337832, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
@@ -9047,6 +9263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puerta_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3547188754757934493, guid: bfe49eb23b8d11d4a92af17f1caa3ada, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4211417385039234855, guid: bfe49eb23b8d11d4a92af17f1caa3ada, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -9106,6 +9326,14 @@ PrefabInstance:
     - target: {fileID: 4211417385039234855, guid: bfe49eb23b8d11d4a92af17f1caa3ada, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348529141682079013, guid: bfe49eb23b8d11d4a92af17f1caa3ada, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9166323559864290011, guid: bfe49eb23b8d11d4a92af17f1caa3ada, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfe49eb23b8d11d4a92af17f1caa3ada, type: 3}
@@ -9358,6 +9586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 89
@@ -9402,6 +9634,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &555332472 stripped
@@ -9424,6 +9660,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -9468,6 +9708,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -9557,6 +9801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -9600,6 +9848,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -9677,9 +9929,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -9746,7 +10006,7 @@ GameObject:
   - component: {fileID: 622518807}
   - component: {fileID: 622518806}
   - component: {fileID: 622518805}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pared_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10158,6 +10418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 85
@@ -10201,6 +10465,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -10520,6 +10788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -10564,6 +10836,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &707187468 stripped
@@ -10586,6 +10862,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -10631,6 +10911,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &728694952 stripped
@@ -10648,6 +10932,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -10693,6 +10981,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &734596407 stripped
@@ -10710,6 +11002,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (03)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -10755,6 +11051,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &742645456 stripped
@@ -10776,7 +11076,7 @@ GameObject:
   - component: {fileID: 785366317}
   - component: {fileID: 785366316}
   - component: {fileID: 785366315}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Borde_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11118,6 +11418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -11161,6 +11465,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -11242,6 +11550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -11285,6 +11597,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -11377,9 +11693,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2063072474596190211, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
       propertyPath: m_Name
       value: Barril
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
@@ -11398,6 +11722,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -11442,6 +11770,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -11505,6 +11837,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa Cuadrada
       objectReference: {fileID: 0}
+    - target: {fileID: 4385880456263220792, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040876467441380757, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
 --- !u!4 &854079950 stripped
@@ -11526,7 +11866,7 @@ GameObject:
   - component: {fileID: 877154302}
   - component: {fileID: 877154301}
   - component: {fileID: 877154300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pared_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11924,9 +12264,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2063072474596190211, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
       propertyPath: m_Name
       value: Barril (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
@@ -11945,6 +12293,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -11989,6 +12341,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -12172,6 +12528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (09)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -12216,6 +12576,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &912602799 stripped
@@ -12233,6 +12597,10 @@ PrefabInstance:
     - target: {fileID: 3845108601707342401, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
       propertyPath: m_Name
       value: Silla_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3845108601707342401, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4474116541924831483, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
       propertyPath: m_RootOrder
@@ -12278,6 +12646,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5459622001529337832, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
 --- !u!4 &920821901 stripped
@@ -12295,6 +12667,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -12340,6 +12716,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &924737466 stripped
@@ -12361,7 +12741,7 @@ GameObject:
   - component: {fileID: 934463106}
   - component: {fileID: 934463105}
   - component: {fileID: 934463104}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pared_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12937,6 +13317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 87
@@ -12981,6 +13365,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &952614503 stripped
@@ -12998,6 +13386,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -13043,6 +13435,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &953169408 stripped
@@ -13060,6 +13456,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -13104,6 +13504,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -13447,9 +13851,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 218601038073332145, guid: 279c8b202bdc4c64fbf8aced56e8de0d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1367440144008594349, guid: 279c8b202bdc4c64fbf8aced56e8de0d, type: 3}
       propertyPath: m_Name
       value: Armario (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367440144008594349, guid: 279c8b202bdc4c64fbf8aced56e8de0d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1851488780470294807, guid: 279c8b202bdc4c64fbf8aced56e8de0d, type: 3}
       propertyPath: m_RootOrder
@@ -13745,7 +14157,7 @@ GameObject:
   - component: {fileID: 1039276770}
   - component: {fileID: 1039276769}
   - component: {fileID: 1039276768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14083,9 +14495,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -14149,6 +14569,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 61
@@ -14192,6 +14616,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -14373,7 +14801,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1080191485}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14406,9 +14834,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -14472,6 +14908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -14515,6 +14955,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -14596,6 +15040,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -14640,6 +15088,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1106514316 stripped
@@ -14657,6 +15109,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -14702,6 +15158,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1109827020 stripped
@@ -14719,6 +15179,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -14763,6 +15227,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -14914,6 +15382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -14957,6 +15429,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -15140,6 +15616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -15184,6 +15664,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1196837256 stripped
@@ -15201,6 +15685,10 @@ PrefabInstance:
     - target: {fileID: 3845108601707342401, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
       propertyPath: m_Name
       value: Silla_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3845108601707342401, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4474116541924831483, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
       propertyPath: m_RootOrder
@@ -15246,6 +15734,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5459622001529337832, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18d4ef235300be743b92840bd7bc81c9, type: 3}
 --- !u!4 &1207396584 stripped
@@ -15262,7 +15754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1216758133}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Nivel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15345,6 +15837,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa Cuadrada (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4385880456263220792, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040876467441380757, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
 --- !u!4 &1219353259 stripped
@@ -15362,6 +15862,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -15406,6 +15910,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -15589,6 +16097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (06)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 82
@@ -15632,6 +16144,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -15871,9 +16387,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2063072474596190211, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
       propertyPath: m_Name
       value: Barril (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
@@ -15892,6 +16416,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -15937,6 +16465,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1258304892 stripped
@@ -15954,6 +16486,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -15998,6 +16534,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -16061,9 +16601,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (08)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -16127,6 +16675,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 88
@@ -16170,6 +16722,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -16321,6 +16877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -16365,6 +16925,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1327767732 stripped
@@ -16381,7 +16945,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1333971613}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Escaleras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16417,6 +16981,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -16462,6 +17030,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1352373170 stripped
@@ -16476,9 +17048,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -16762,9 +17342,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2063072474596190211, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
       propertyPath: m_Name
       value: Barril (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
@@ -16786,7 +17374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6716602367403766122, guid: a8a2d383a6e16bd4fb289f6b2362bfcd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6716602367403766122, guid: a8a2d383a6e16bd4fb289f6b2362bfcd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16794,7 +17382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6716602367403766122, guid: a8a2d383a6e16bd4fb289f6b2362bfcd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -20.024935
+      value: -22.524937
       objectReference: {fileID: 0}
     - target: {fileID: 6716602367403766122, guid: a8a2d383a6e16bd4fb289f6b2362bfcd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16837,6 +17425,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2112920380}
     m_Modifications:
+    - target: {fileID: -9105618163840358935, guid: ec33c3317f274154f9853874c4c61ec1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ec33c3317f274154f9853874c4c61ec1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -16897,9 +17489,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -4409553967980795369, guid: ec33c3317f274154f9853874c4c61ec1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ec33c3317f274154f9853874c4c61ec1, type: 3}
       propertyPath: m_Name
       value: Puerta_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ec33c3317f274154f9853874c4c61ec1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec33c3317f274154f9853874c4c61ec1, type: 3}
@@ -16949,6 +17549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 75
@@ -16992,6 +17596,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -17231,9 +17839,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2063072474596190211, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
       propertyPath: m_Name
       value: Barril (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
@@ -17252,6 +17868,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -17297,6 +17917,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1445326100 stripped
@@ -17313,7 +17937,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1465596330}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bordes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17804,6 +18428,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa Cuadrada (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4385880456263220792, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040876467441380757, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f63931af4db9a8840b84fb7e5cc4e6db, type: 3}
 --- !u!4 &1493359980 stripped
@@ -17821,6 +18453,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (08)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -17866,6 +18502,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1496091447 stripped
@@ -17883,6 +18523,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -17927,6 +18571,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -17998,7 +18646,7 @@ GameObject:
   - component: {fileID: 1546192027}
   - component: {fileID: 1546192026}
   - component: {fileID: 1546192025}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Borde_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18343,7 +18991,7 @@ GameObject:
   - component: {fileID: 1567470422}
   - component: {fileID: 1567470421}
   - component: {fileID: 1567470420}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pared_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18852,7 +19500,7 @@ GameObject:
   - component: {fileID: 1591394681}
   - component: {fileID: 1591394680}
   - component: {fileID: 1591394679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22199,7 +22847,7 @@ GameObject:
   - component: {fileID: 1647880253}
   - component: {fileID: 1647880252}
   - component: {fileID: 1647880251}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pared_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22544,7 +23192,7 @@ GameObject:
   - component: {fileID: 1664031706}
   - component: {fileID: 1664031705}
   - component: {fileID: 1664031704}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25813,6 +26461,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (05)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -25857,6 +26509,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1676413109 stripped
@@ -25871,9 +26527,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -26101,6 +26765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 73
@@ -26145,6 +26813,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1706242375 stripped
@@ -26166,7 +26838,7 @@ GameObject:
   - component: {fileID: 1709226578}
   - component: {fileID: 1709226577}
   - component: {fileID: 1709226576}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Borde_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26508,6 +27180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -26552,6 +27228,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1728042091 stripped
@@ -26566,9 +27246,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -26632,6 +27320,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -26676,6 +27368,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1740148819 stripped
@@ -26697,7 +27393,7 @@ GameObject:
   - component: {fileID: 1746504874}
   - component: {fileID: 1746504873}
   - component: {fileID: 1746504872}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pared_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27039,6 +27735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 83
@@ -27083,6 +27783,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1759209623 stripped
@@ -27104,7 +27808,7 @@ GameObject:
   - component: {fileID: 1767208380}
   - component: {fileID: 1767208379}
   - component: {fileID: 1767208378}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27444,7 +28148,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1767326881}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Decos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27744,7 +28448,7 @@ GameObject:
   - component: {fileID: 1772382095}
   - component: {fileID: 1772382094}
   - component: {fileID: 1772382093}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pared_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28148,6 +28852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (07)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 92
@@ -28192,6 +28900,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1794163874 stripped
@@ -28209,6 +28921,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -28254,6 +28970,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1796008380 stripped
@@ -28268,9 +28988,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -28494,9 +29222,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -28563,7 +29299,7 @@ GameObject:
   - component: {fileID: 1833442325}
   - component: {fileID: 1833442324}
   - component: {fileID: 1833442323}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Borde_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28901,9 +29637,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (06)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -29193,6 +29937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -29237,6 +29985,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1873146881 stripped
@@ -29258,7 +30010,7 @@ GameObject:
   - component: {fileID: 1879394374}
   - component: {fileID: 1879394373}
   - component: {fileID: 1879394372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29596,9 +30348,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 5091848611458468986, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_Name
       value: Mesa Circular (09)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219328541648278386, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8744648446639376840, guid: d78dc7d03d2867043a190ebe2660bbce, type: 3}
       propertyPath: m_RootOrder
@@ -29718,9 +30478,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2063072474596190211, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
       propertyPath: m_Name
       value: Barril (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
@@ -29739,6 +30507,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -29783,6 +30555,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -30188,9 +30964,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 218601038073332145, guid: 279c8b202bdc4c64fbf8aced56e8de0d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1367440144008594349, guid: 279c8b202bdc4c64fbf8aced56e8de0d, type: 3}
       propertyPath: m_Name
       value: Armario (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367440144008594349, guid: 279c8b202bdc4c64fbf8aced56e8de0d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1851488780470294807, guid: 279c8b202bdc4c64fbf8aced56e8de0d, type: 3}
       propertyPath: m_RootOrder
@@ -30249,6 +31033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silla_02 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -30293,6 +31081,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &1974765621 stripped
@@ -30310,6 +31102,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -30355,6 +31151,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &2024569686 stripped
@@ -30372,6 +31172,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -30416,6 +31220,10 @@ PrefabInstance:
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
@@ -30561,9 +31369,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2063072474596190211, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
       propertyPath: m_Name
       value: Barril (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
@@ -30582,6 +31398,10 @@ PrefabInstance:
     - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_Name
       value: Silla_02 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2672625491384595926, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3340758423297961836, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
       propertyPath: m_RootOrder
@@ -30627,6 +31447,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4729537054515075456, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a894363c1d0f1e498cf92fdea4be4a7, type: 3}
 --- !u!4 &2085669774 stripped
@@ -30648,7 +31472,7 @@ GameObject:
   - component: {fileID: 2088563801}
   - component: {fileID: 2088563800}
   - component: {fileID: 2088563799}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34079,7 +34903,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2112920380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mecanismos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34180,9 +35004,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767326881}
     m_Modifications:
+    - target: {fileID: 218601038073332145, guid: 279c8b202bdc4c64fbf8aced56e8de0d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1367440144008594349, guid: 279c8b202bdc4c64fbf8aced56e8de0d, type: 3}
       propertyPath: m_Name
       value: Armario
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367440144008594349, guid: 279c8b202bdc4c64fbf8aced56e8de0d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1851488780470294807, guid: 279c8b202bdc4c64fbf8aced56e8de0d, type: 3}
       propertyPath: m_RootOrder
@@ -34297,9 +35129,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2063072474596190211, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
       propertyPath: m_Name
       value: Barril (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158952013931668214, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8b21b84067bc264382335b59bc4b2c0, type: 3}
