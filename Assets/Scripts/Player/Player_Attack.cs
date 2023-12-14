@@ -8,12 +8,14 @@ public class Player_Attack : MonoBehaviour
     public float tiempo_ataque;
     private bool attacking = false;
     private float attackTimer = 0f;
+    private Player_Cambio Camara;
 
     // Start is called before the first frame update
     void Start()
     {
         weapon.GetComponent<Collider>().enabled = false;
         weapon.GetComponent<MeshRenderer>().enabled = false;
+        Camara = GameObject.FindWithTag("MainCamera").GetComponent<Player_Cambio>();
     }
 
     // Update is called once per frame

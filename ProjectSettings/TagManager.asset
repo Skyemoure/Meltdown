@@ -13,6 +13,8 @@ TagManager:
   - EnemyDetect
   - Zona_de_Calor
   - Hielo
+  - Recharge
+  - Pickup
   layers:
   - Default
   - TransparentFX

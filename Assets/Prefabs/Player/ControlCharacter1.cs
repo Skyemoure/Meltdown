@@ -121,9 +121,9 @@ public class ControlCharacter1 : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //Recargar botellas al agarrar más
-        if (other.tag == "pickup")
+        if (other.tag == "Pickup")
         {
-            Camara.botellas += 5;
+            Camara.botellas += 3;
             Destroy(other.gameObject);
         }
 
@@ -132,6 +132,17 @@ public class ControlCharacter1 : MonoBehaviour
             playerSpeed = 1;
         }
 
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "Recharge")
+        {
+            if (Input.GetKey(KeyCode.Space))
+            {
+                Camara.botellas = 5;
+            }
+        }
     }
 
     private void OnTriggerExit(Collider other)
