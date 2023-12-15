@@ -8,7 +8,7 @@ public class PlacaDePrecion : MonoBehaviour
     public MeshRenderer SpikeMesh;
     public BoxCollider SpikeCollider;
     public bool Activate;
-    private int Timer = 25;
+    private int Timer = 45;
     private int maxTimer;
     
     void Start()
@@ -31,7 +31,7 @@ public class PlacaDePrecion : MonoBehaviour
             SpikeCollider.enabled = false;
         }
 
-        if(Timer <= -70)
+        if(Timer <= -50)
         {
             Activate = false;
         }

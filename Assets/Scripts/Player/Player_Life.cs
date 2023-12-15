@@ -19,20 +19,33 @@ public class Player_Life : MonoBehaviour
         if (Camara.Act)
         {
             Camara.Act = true;
-            Camara.Vida = 120;
         }
         StartIFrames = Iframes;
     }
 
     private void Update()
     {
-        if (Camara.Vida <= 0)
+        if(Camara.Act)
         {
-            RecargarEscenaActual();
-            Destroy(Camara.gameObject);
+            if (Camara.Vida <= 0)
+            {
+                SceneManager.LoadScene("Escena_06_Nivel_5");
+                Destroy(Camara.gameObject);
+            }
+        }
+        else
+        {
+            if (Camara.Vida <= 0)
+            {
+                RecargarEscenaActual();
+                Destroy(Camara.gameObject);
+            }
+
         }
 
-        if(invulnerabilidad)
+
+
+        if (invulnerabilidad)
         {
             Iframes--;
         }
@@ -91,6 +104,16 @@ public class Player_Life : MonoBehaviour
             if (Camara.Act)
             {
                 Camara.Vida -= Time.deltaTime * 5;
+            }
+        }
+
+        if (!invulnerabilidad)
+        {
+            if (other.CompareTag("Trampa"))
+            {
+                Control.EmpujarHaciaAtras(200);
+                Camara.Vida -= 15;
+                invulnerabilidad = true;
             }
         }
     }

@@ -32,6 +32,7 @@ public class Player_Cambio : MonoBehaviour
     }
     void Update()
     {
+        Scene();
         LifeBar.fillAmount = Vida / VidaMax;
 
         if (Act)
@@ -39,6 +40,16 @@ public class Player_Cambio : MonoBehaviour
             VidaMax = 350;
             Vida -= Time.deltaTime;
             LifeBar.color = Color.cyan;
+        }
+    }
+
+    public void Scene()
+    {
+        Scene escenaActual = SceneManager.GetActiveScene();
+
+        if (escenaActual.name == "Escena_11_End")
+        {
+            Destroy(gameObject);
         }
     }
 }
