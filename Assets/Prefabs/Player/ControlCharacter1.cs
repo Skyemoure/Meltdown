@@ -44,7 +44,12 @@ public class ControlCharacter1 : MonoBehaviour
     //anim
     public float animSpeed = 0f;
 
+    public bool disparo = false;
+
+
     public Transform prefabPos;
+
+
 
     private void Start()
     {
@@ -74,6 +79,9 @@ public class ControlCharacter1 : MonoBehaviour
             {
                 //Creamos botellas al disparar
                 //Si no golpea a nada sigue infinitamente (hasta que se le vá la vida útil y se autodestruye)
+                disparo = true;
+
+
                 RaycastHit hit;
                 i = Instantiate(botella, prefabPos.transform.position, Quaternion.identity);
                 arrojarBotella bulletController = i.GetComponent<arrojarBotella>();

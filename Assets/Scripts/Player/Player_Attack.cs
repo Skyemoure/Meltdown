@@ -6,7 +6,7 @@ public class Player_Attack : MonoBehaviour
 {
     public GameObject weapon;
     public float tiempo_ataque;
-    private bool attacking = false;
+    public bool attacking = false;
     private float attackTimer = 0f;
 
     // Start is called before the first frame update
