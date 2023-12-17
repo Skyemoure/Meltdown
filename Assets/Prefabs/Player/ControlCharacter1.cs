@@ -41,6 +41,9 @@ public class ControlCharacter1 : MonoBehaviour
     [SerializeField]
     private float timeSpeed = 0.08f;
 
+    //anim
+    public float animSpeed = 0f;
+
     public Transform prefabPos;
 
     private void Start()
@@ -136,6 +139,8 @@ public class ControlCharacter1 : MonoBehaviour
         
 
         controller.Move(playerVelocity * timeSpeed);
+
+        animSpeed = move.magnitude;
     }
 
     private void OnTriggerEnter(Collider other)
