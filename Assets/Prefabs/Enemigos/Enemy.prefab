@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 2116189808627736210}
   - component: {fileID: 2116189808627736209}
   - component: {fileID: 2116189808627736207}
-  - component: {fileID: 6582076527061642352}
+  - component: {fileID: 3773069720773557633}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -235,7 +235,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &6582076527061642352
+--- !u!65 &3773069720773557633
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,8 +246,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 15, y: 0.1, z: 15}
-  m_Center: {x: 0, y: -0.51, z: 0}
+  m_Size: {x: 15, y: 0.2, z: 15}
+  m_Center: {x: 0, y: -0.5, z: 0}
 --- !u!1001 &3122955701903172842
 PrefabInstance:
   m_ObjectHideFlags: 0
