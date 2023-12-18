@@ -24,22 +24,12 @@ public class Player_Anim : MonoBehaviour
         move = control.animSpeed;
 
         m_Animator.SetFloat("Speed", move);
-
-        if (MeleePlayerAttack.attacking == true)
-        {
-            //m_Animator.SetTrigger("attack");
-        }
-        if (health <= 0)
-        {
-            m_Animator.Play("death");
-        }
-
     }
 
     public void GolpeadoAnim()
     {
         {
-            m_Animator.SetTrigger("hit");
+            m_Animator.Play("hit");
         }
     }
 
@@ -51,5 +41,10 @@ public class Player_Anim : MonoBehaviour
     public void AtaqueAnim()
     {
         MeleePlayerAttack.ScriptAtaque();
+    }
+
+    public void DeathAnim()
+    {
+        m_Animator.Play("death");
     }
 }

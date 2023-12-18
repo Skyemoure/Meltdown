@@ -11,10 +11,13 @@ public class Player_Life : MonoBehaviour
     public bool invulnerabilidad;
     private int Iframes = 25;
     private int StartIFrames;
+    private Player_Anim Anim;
+
 
     void Start()
     {
         Control = GetComponent<ControlCharacter1>();
+        Anim = gameObject.GetComponentInChildren<Player_Anim>();
         Camara = GameObject.FindWithTag("MainCamera").GetComponent<Player_Cambio>();
         if (Camara.Act)
         {
@@ -40,10 +43,7 @@ public class Player_Life : MonoBehaviour
                 RecargarEscenaActual();
                 Destroy(Camara.gameObject);
             }
-
         }
-
-
 
         if (invulnerabilidad)
         {
@@ -63,9 +63,7 @@ public class Player_Life : MonoBehaviour
         {
             if (collision.gameObject.CompareTag("Enemy"))
             {
-                Control.EmpujarHaciaAtras(200);
-                Camara.Vida -= 25;
-                invulnerabilidad = true;
+                Hit(25);
             }
         }
     }
@@ -88,13 +86,9 @@ public class Player_Life : MonoBehaviour
         {
             if (other.CompareTag("Trampa"))
             {
-                Control.EmpujarHaciaAtras(200);
-                Camara.Vida -= 15;
-                invulnerabilidad = true;
+                Hit(15);
             }
         }
-
-
     }
 
     private void OnTriggerStay(Collider other)
@@ -111,10 +105,16 @@ public class Player_Life : MonoBehaviour
         {
             if (other.CompareTag("Trampa"))
             {
-                Control.EmpujarHaciaAtras(200);
-                Camara.Vida -= 15;
-                invulnerabilidad = true;
+                Hit(15);
             }
         }
+    }
+
+    public void Hit(int daño)
+    {
+        Camara.Vida -= daño;
+        invulnerabilidad = true;
+        Anim.GolpeadoAnim();
+        Control.EmpujarHaciaAtras(200);
     }
 }

@@ -153,6 +153,7 @@ public class ControlCharacter1 : MonoBehaviour
         controller.Move(direccionOpuesta * fuerza * Time.deltaTime);
     }
 
+
     public void ControlDisparo()
     {
         disparo = true;

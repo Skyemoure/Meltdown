@@ -15,7 +15,6 @@ public class Player_Attack : MonoBehaviour
     void Start()
     {
         weapon.GetComponent<Collider>().enabled = false;
-        weapon.GetComponent<MeshRenderer>().enabled = false;
         Camara = GameObject.FindWithTag("MainCamera").GetComponent<Player_Cambio>();
         m_Animator = gameObject.GetComponentInChildren<Animator>();
     }
@@ -30,7 +29,6 @@ public class Player_Attack : MonoBehaviour
             if (attackTimer >= tiempo_ataque)
             {
                 weapon.GetComponent<Collider>().enabled = false;
-                weapon.GetComponent<MeshRenderer>().enabled = false;
                 attacking = false;
                 attackTimer = 0f;
             }
@@ -45,7 +43,6 @@ public class Player_Attack : MonoBehaviour
     {
         attacking = true;
         weapon.GetComponent<Collider>().enabled = true;
-        weapon.GetComponent<MeshRenderer>().enabled = true;
     }
 }
 
