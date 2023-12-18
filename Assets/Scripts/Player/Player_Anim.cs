@@ -25,14 +25,9 @@ public class Player_Anim : MonoBehaviour
 
         m_Animator.SetFloat("Speed", move);
 
-        if (control.disparo == true)
-        {
-            //m_Animator.SetTrigger("Tirar");
-        }
-
         if (MeleePlayerAttack.attacking == true)
         {
-            m_Animator.SetTrigger("attack");
+            //m_Animator.SetTrigger("attack");
         }
         if (health <= 0)
         {
@@ -51,5 +46,10 @@ public class Player_Anim : MonoBehaviour
     public void DisparoAnim()
     {
         control.ControlDisparo();
+    }
+
+    public void AtaqueAnim()
+    {
+        MeleePlayerAttack.ScriptAtaque();
     }
 }
