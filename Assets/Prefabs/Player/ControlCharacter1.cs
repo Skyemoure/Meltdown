@@ -40,6 +40,9 @@ public class ControlCharacter1 : MonoBehaviour
 
     public Transform prefabPos;
 
+    public int animSpeed;
+    public bool disparo;
+
     private void Start()
     {
         //busco controller y el input de player creado
