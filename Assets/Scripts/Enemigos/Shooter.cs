@@ -13,32 +13,27 @@ public class Shooter : MonoBehaviour
     void Start()
     {
         can_shoot = true;
-        Player = GameObject.FindWithTag("Player");
     }
 
     IEnumerator Shoot()
     {
         Instantiate(Proyectil, transform.position, Quaternion.identity);
-        can_shoot=false;
+        can_shoot = false;
         yield return new WaitForSeconds(intervalo_disparo);
-        can_shoot=true;
+        can_shoot = true;
     }
 
     private void OnTriggerStay(Collider other)
     {
-        if(other.CompareTag("Player"))
-        {
-            if (can_shoot)
-                StartCoroutine(Shoot());
-        }
-
+        if (can_shoot)
+            StartCoroutine(Shoot());
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("player_attack"))
         {
-            Destroy(gameObject); ;
+            Destroy(gameObject);
         }
     }
 }
