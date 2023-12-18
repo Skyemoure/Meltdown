@@ -40,8 +40,10 @@ public class ControlCharacter1 : MonoBehaviour
 
     public Transform prefabPos;
 
-    public int animSpeed;
-    public bool disparo;
+    public float animSpeed = 0f;
+    public bool disparo = false;
+
+    Animator m_Animator;
 
     private void Start()
     {
@@ -58,6 +60,7 @@ public class ControlCharacter1 : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         UIText = GameObject.FindWithTag("MainCamera").GetComponentInChildren<TextMeshProUGUI>();
         Camara = GameObject.FindWithTag("MainCamera").GetComponent<Player_Cambio>();
+        m_Animator = gameObject.GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -69,22 +72,7 @@ public class ControlCharacter1 : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0) && Camara.botellas > 0)
             {
-                //Creamos botellas al disparar
-                //Si no golpea a nada sigue infinitamente (hasta que se le vá la vida útil y se autodestruye)
-                RaycastHit hit;
-                i = Instantiate(botella, prefabPos.transform.position, Quaternion.identity);
-                arrojarBotella bulletController = i.GetComponent<arrojarBotella>();
-                if (Physics.Raycast(camTransform.position, camTransform.forward, out hit, Mathf.Infinity))
-                {
-                    bulletController.target = hit.point;
-                    bulletController.hit = true; 
-                }
-                else
-                {
-                    bulletController.target = camTransform.position + camTransform.forward * 25f;
-                    bulletController.hit = true;
-                }
-                Camara.botellas--;
+                m_Animator.Play("RangedAttack");
             }
         }
     }
@@ -119,6 +107,8 @@ public class ControlCharacter1 : MonoBehaviour
         }
         
         controller.Move(playerVelocity * timeSpeed);
+
+        animSpeed = move.magnitude;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -163,5 +153,23 @@ public class ControlCharacter1 : MonoBehaviour
         controller.Move(direccionOpuesta * fuerza * Time.deltaTime);
     }
 
+    public void ControlDisparo()
+    {
+        disparo = true;
+        RaycastHit hit;
+        i = Instantiate(botella, prefabPos.transform.position, Quaternion.identity);
+        arrojarBotella bulletController = i.GetComponent<arrojarBotella>();
+        if (Physics.Raycast(camTransform.position, camTransform.forward, out hit, Mathf.Infinity))
+        {
+            bulletController.target = hit.point;
+            bulletController.hit = true;
+        }
+        else
+        {
+            bulletController.target = camTransform.position + camTransform.forward * 25f;
+            bulletController.hit = true;
+        }
+        Camara.botellas--;
+    }
 }
 

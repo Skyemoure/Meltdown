@@ -18,6 +18,6 @@ public class arrojarBotella : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 }
