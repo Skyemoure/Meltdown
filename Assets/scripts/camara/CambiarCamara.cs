@@ -15,7 +15,7 @@ public class CambiarCamara : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-        
+        canvas = GameObject.FindWithTag("canvasmira").GetComponent<Canvas>();
         canvas.enabled = false;
         virtualCamera = GetComponent<CinemachineVirtualCamera>();
         aimAction = playerInput.actions["Aim"];
@@ -36,13 +36,20 @@ public class CambiarCamara : MonoBehaviour
 
     private void StartAim()
     {
-        virtualCamera.Priority += 10;
-        canvas.enabled = true;
+        if (canvas != null)
+        {
+            virtualCamera.Priority += 10;
+            canvas.enabled = true;
+        }
     }
 
     private void CancelAim()
     {
-        virtualCamera.Priority -= 10;
-        canvas.enabled = false;
+        if (canvas != null)
+        {
+            virtualCamera.Priority -= 10;
+            canvas.enabled = false;
+        }
+
     }
 }
