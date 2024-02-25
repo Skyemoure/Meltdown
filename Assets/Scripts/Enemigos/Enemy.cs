@@ -10,15 +10,18 @@ public class Enemy : MonoBehaviour
     public GameObject Origin;
     public float speed_value;
 
-    public Vector3 V;
+    public Vector3 Objetivo;
 
     public bool Act;
+
+    public float Vida;
 
     void Start()
     {
         Player = GameObject.FindWithTag("Player");
         agente = GetComponent<UnityEngine.AI.NavMeshAgent>();
         agente.speed = speed_value;
+        Vida = 50;
     }
 
     void Update()
@@ -32,16 +35,19 @@ public class Enemy : MonoBehaviour
             agente.destination = Origin.transform.position;
         }
 
-        V = Player.transform.position;
-    }
+        Objetivo = Player.transform.position;
 
-    private void OnTriggerEnter(Collider other)
+        if(Vida <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+    private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             Act = true;
-        } 
-
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -56,8 +62,9 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("player_attack"))
         {
-            Vector3 direccionRetroceso = -transform.forward * 100 * Time.deltaTime;
+            Vector3 direccionRetroceso = -transform.forward * 200 * Time.deltaTime;
             transform.Translate(direccionRetroceso, Space.World);
+            Vida -= 25;
         }
     }
 }

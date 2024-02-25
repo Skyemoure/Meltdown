@@ -8,6 +8,13 @@ TagManager:
   - pickup
   - canvasmira
   - player_attack
+  - Enemy
+  - Trampa
+  - EnemyDetect
+  - Zona_de_Calor
+  - Hielo
+  - Recharge
+  - Pickup
   layers:
   - Default
   - TransparentFX

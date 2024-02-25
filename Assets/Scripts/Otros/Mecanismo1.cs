@@ -5,7 +5,7 @@ using UnityEngine;
 public class Mecanismo1 : MonoBehaviour
 {
     public GameObject Puente;
-
+    public Vector3 PosFinal;
     void Start()
     {
         Puente.transform.position = new Vector3(0,-10,0);
@@ -15,7 +15,7 @@ public class Mecanismo1 : MonoBehaviour
     {
         if (other.CompareTag("player_attack"))
         {
-            Puente.transform.position = new Vector3(0, 0, 0);
+            Puente.transform.position = PosFinal;
         }
     }
 }

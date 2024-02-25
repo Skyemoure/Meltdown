@@ -17,10 +17,10 @@ public class aim : MonoBehaviour
     Vector3 dir;
     GameObject i;
     public Transform mano;
-    // Start is called before the first frame update
+    private Player_Cambio Camara;
     void Start()
     {
-        
+        Camara = GameObject.FindWithTag("MainCamera").GetComponent<Player_Cambio>();
     }
 
     // Update is called once per frame
@@ -29,13 +29,13 @@ public class aim : MonoBehaviour
 
         if (Input.GetMouseButton(1))
         {
-            if (Input.GetMouseButtonDown(0) && ControlCharacter1.botellas > 0)
+            if (Input.GetMouseButtonDown(0) && Camara.botellas > 0)
             {
                 i = Instantiate(botella, mano.transform.position, Quaternion.identity);
                 dir = mira.transform.position - mano.transform.position;
                 i.GetComponent<Rigidbody>().AddForce(dir * 100f, ForceMode.Force);
-                ControlCharacter1.botellas -= 1;
-                print(ControlCharacter1.botellas);
+                Camara.botellas -= 1;
+                print(Camara.botellas);
             }
 
         }

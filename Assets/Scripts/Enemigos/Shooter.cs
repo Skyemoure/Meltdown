@@ -18,9 +18,9 @@ public class Shooter : MonoBehaviour
     IEnumerator Shoot()
     {
         Instantiate(Proyectil, transform.position, Quaternion.identity);
-        can_shoot=false;
+        can_shoot = false;
         yield return new WaitForSeconds(intervalo_disparo);
-        can_shoot=true;
+        can_shoot = true;
     }
 
     private void OnTriggerStay(Collider other)
@@ -33,7 +33,7 @@ public class Shooter : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("player_attack"))
         {
-            Destroy(gameObject); ;
+            Destroy(gameObject);
         }
     }
 }

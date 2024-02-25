@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Menu_Principal : MonoBehaviour
 {
+    private void Update()
+    {
+        Cursor.lockState = CursorLockMode.None;
+    }
     public void Boton_Jugar()
     {
         SceneManager.LoadScene("Escena_01_Tutorial");
