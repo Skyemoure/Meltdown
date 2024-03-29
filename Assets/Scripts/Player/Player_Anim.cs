@@ -6,7 +6,7 @@ public class Player_Anim : MonoBehaviour
 {
     Player_Attack MeleePlayerAttack;
     ControlCharacter1 control;
-    Animator m_Animator;
+    public Animator m_Animator;
     public float move;
     public float health = 100f;
 
